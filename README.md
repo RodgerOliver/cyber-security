@@ -1,1 +1,1 @@
-# cyber-security
+# Cyber Security Course
