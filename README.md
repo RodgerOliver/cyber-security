@@ -17,8 +17,7 @@
 
 **Pseudonymity** = you get a reputation from what you do, but it's has nothing to do with the real you.
 
-![The Cyber Security Landscape Diagram]
-(The-Cyber-Security-Landscape-Diagram.jpg)
+![The Cyber Security Landscape Diagram](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/The-Cyber-Security-Landscape-Diagram.jpg)
 
 Apply security controls to your assets to protect them from threats planned and executed by atackers. The threats try to exploit vulnerabilities in the security to get access to the assets.
 
