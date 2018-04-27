@@ -1,5 +1,5 @@
 #  Cyber Security Course Volume 1
-## The Threat and Vulnerability Landscape
+## Know Yourself - The Threat and Vulnerability Landscape
 
 **Security** = way to protect your assets.
 
@@ -46,3 +46,11 @@ The security controls need to enable the security attributes (CIA Triad).
 Evaluate instead of trust. Mitigate the risk. Trust nothing.
 
 Crypton and Encryptr are Zero Knowledge systems, they don't know what the clients are hosting.
+
+## Know Your Enemy  - The Current Threat and Vulnerability Landscape
+
+![Things to Stay Safe Online](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Things-to-Stay-Safe-Online.jpg)
+
+**Vunerability or Bugs** = error in the software that creates a potential for a hacker to exploit it.
+
+**Known bugs** have patches. Unknown bugs or **Zero Days** don't.
