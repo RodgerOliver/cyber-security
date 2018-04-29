@@ -54,3 +54,15 @@ Crypton and Encryptr are Zero Knowledge systems, they don't know what the client
 **Vunerability or Bugs** = error in the software that creates a potential for a hacker to exploit it.
 
 **Known bugs** have patches. Unknown bugs or **Zero Days** don't.
+
+### Hackers
+
+**Malware** = all programs written with malicious intent
+
+Virus, worms, rootkits, trojans, ransomware, RATs, spywares, adware, scareware, browser hijacking are types of malware.
+
+**Phishing** = atack that tricks the vitim into clicking on a link, filling a form with personal detials or executing something unwanted.
+
+**Doxing** = research on an idividual, organization or company top find personal or private information. It can be done by searching on the internet.
+
+**Scams or Social Engineering Atacks** = attacks that central weaknesses in the human.
