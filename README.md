@@ -66,3 +66,5 @@ Virus, worms, rootkits, trojans, ransomware, RATs, spywares, adware, scareware, 
 **Doxing** = research on an idividual, organization or company top find personal or private information. It can be done by searching on the internet.
 
 **Scams or Social Engineering Atacks** = attacks that central weaknesses in the human.
+
+**Darkweb** = any encripted overlay network that can only be accessed with specific types of software, authorization, protocols or ports.
