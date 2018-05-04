@@ -19,11 +19,11 @@
 
 ![The Cyber Security Landscape Diagram](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/The-Cyber-Security-Landscape-Diagram.jpg)
 
-Apply security controls to your assets to protect them from threats planned and executed by atackers. The threats try to exploit vulnerabilities in the security to get access to the assets.
+Apply security controls to your assets to protect them from threats planned and executed by attackers. The threats try to exploit vulnerabilities in the security to get access to the assets.
 
 **Risk** = Vulnerability X Threats X Consequences
 
-**Threat Landscape or Model** = atackers and threats that are faced.
+**Threat Landscape or Model** = attackers and threats that are faced.
 
 **Risk Assessments** = select the right security for specific assets.
 
@@ -31,7 +31,7 @@ Select, implement, assess and monitor the security controls for assets.
 
 ### CIA Triad
 
-**Confidentiality, Integraty, Availability**
+**Confidentiality, Integrity, Availability**
 
 The security controls need to enable the security attributes (CIA Triad).
 
@@ -51,7 +51,7 @@ Crypton and Encryptr are Zero Knowledge systems, they don't know what the client
 
 ![Things to Stay Safe Online](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Things-to-Stay-Safe-Online.jpg)
 
-**Vunerability or Bugs** = error in the software that creates a potential for a hacker to exploit it.
+**Vulnerability or Bugs** = error in the software that creates a potential for a hacker to exploit it.
 
 **Known bugs** have patches. Unknown bugs or **Zero Days** don't.
 
@@ -61,10 +61,16 @@ Crypton and Encryptr are Zero Knowledge systems, they don't know what the client
 
 Virus, worms, rootkits, trojans, ransomware, RATs, spywares, adware, scareware, browser hijacking are types of malware.
 
-**Phishing** = atack that tricks the vitim into clicking on a link, filling a form with personal detials or executing something unwanted.
+**Phishing** = attack that tricks the victim into clicking on a link, filling a form with personal details or executing something unwanted.
 
-**Doxing** = research on an idividual, organization or company top find personal or private information. It can be done by searching on the internet.
+**Doxing** = research on an individual, organization or company top find personal or private information. It can be done by searching on the internet.
 
-**Scams or Social Engineering Atacks** = attacks that central weaknesses in the human.
+**Scams or Social Engineering Attacks** = attacks that central weaknesses in the human. Ex: fake emails saying that your bank account needs your documents; buying something and don't receive it; 
 
-**Darkweb** = any encripted overlay network that can only be accessed with specific types of software, authorization, protocols or ports.
+**CPU Hijackers** = malware that hijacks your CPU cycles to mine cryptocurrency.
+
+**Darkweb** = any encrypted overlay network that can only be accessed with specific types of software, authorization, protocols or ports.
+
+To protect against known vulnerabilities and bugs is to use **formal methods**. The software is fundamentally a mathematical system, therefore you can prove the correctness of a system by testing the properties of that system. This way you can provide complete evidence of correctness.
+
+**Back Door** = weakness of a system.
