@@ -74,3 +74,42 @@ Virus, worms, rootkits, trojans, ransomware, RATs, spywares, adware, scareware, 
 To protect against known vulnerabilities and bugs is to use **formal methods**. The software is fundamentally a mathematical system, therefore you can prove the correctness of a system by testing the properties of that system. This way you can provide complete evidence of correctness.
 
 **Back Door** = weakness of a system.
+
+## Encryption Crash Course
+
+Encryption is a method of transforming readable data, called **plain text**, into a form that is unreadable that is called **cipher text**. And decryption is a method to transform cypher text into plain text.
+
+### Symmetric Encryption Algorithm
+
+There are to main components of symetric encryption. There is the **algorithm (public, padlock)**, and the **key (secret, key)**.
+
+This combination determines how the plain text will be jumbled up.
+
+Examples: AES, DES, 3DES, Blowfish, RC4, RC5, RC6.
+
+**AES** = Advanced Encryption Standard (Symetric Algorithm, uses one key).
+
+**256-bit** AES = bit lingth & key space (2 ^ bit-rate are the possible keys with this algorithm). The higher the number, the stronger the algorithm and the slower the encryption and decryption.
+
+### Asymmetric Encryption Algorithm
+
+Also known as Public & Private Key.
+
+Examples: RSA, ECC, DH, El Gamal.
+
+The **public key** is designed to be known by anybody, and the **private key** is secret. These key are mathematically related and have to be generated at the same time.
+
+If you encrypit with the **public**, you need the **private** to decrypt.
+If you encrypit with the **private**, you need the **public** to decrypt.
+
+![Asymmetric Encryption](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Asymmetric-Encryption.png)
+
+The sender encrypts the message with the receiver's public key, so you want privacy or confidentiality, and message is decrypted with the receiver's private key, but there is no authentication, cause any one can use the receiver's public key to send a message to encrypt.
+
+But if the message is encrypted with the sender's private key, it means that authenticating is what he is interested in, the receiver will know who sent it, but any one can decrypt it with the sender's public key, so it is not private.
+
+### Conclusion
+
+Asymetric: better key distribution, scalability, authentication and nonrepudiation, slow, mathematically intense
+
+Symetric: fast and strong.
