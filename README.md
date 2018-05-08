@@ -113,3 +113,15 @@ But if the message is encrypted with the sender's private key, it means that aut
 Asymetric: better key distribution, scalability, authentication and nonrepudiation, slow, mathematically intense
 
 Symetric: fast and strong.
+
+### Hashes
+
+A hash function takes as input data of any size and converts it into a fixed length string of characters. This is a one way function, so it cannot be converted back to its original state, and no keys are requires for this.
+
+![Hash Functions](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Hash-Functions.jpg)
+
+### Digital Signatures
+
+A Digital Signature is a hashed value that is encrypted with the sender's private key. When this is done, it provides authentication, nonrepudiation and integrity.
+
+![Digital Signatures](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Digital-Signatures.png)
