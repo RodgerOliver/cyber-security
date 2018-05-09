@@ -124,4 +124,6 @@ A hash function takes as input data of any size and converts it into a fixed len
 
 A Digital Signature is a hashed value that is encrypted with the sender's private key. When this is done, it provides authentication, nonrepudiation and integrity.
 
+To verify that the data is what it claims to be, the Digital Signature is decrypted with the sender's public key returning a hash, this hash compared to the hash of the data, if they match, that data is original and verified.
+
 ![Digital Signatures](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Digital-Signatures.jpg)
