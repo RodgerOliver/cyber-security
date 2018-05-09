@@ -110,7 +110,7 @@ But if the message is encrypted with the sender's private key, it means that aut
 
 ### Conclusion
 
-Asymetric: better key distribution, scalability, authentication and nonrepudiation, slow, mathematically intense
+Asymetric: better key distribution, scalability, authentication and nonrepudiation, slow, mathematically intense.
 
 Symetric: fast and strong.
 
@@ -127,3 +127,19 @@ A Digital Signature is a hashed value that is encrypted with the sender's privat
 To verify that the data is what it claims to be, the Digital Signature is decrypted with the sender's public key returning a hash, this hash compared to the hash of the data, if they match, that data is original and verified.
 
 ![Digital Signatures](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Digital-Signatures.jpg)
+
+### SSL and TLS
+
+**SSL** = Secure Sockets Layer (older).
+
+**TLS** = Transport Layer Security (newer but also called SSL).
+
+SSL and TLS are cryptographic protocols designed to provide communication security over a network or the Internet.
+
+When you access a website, the browser communicates with the server, and this is encrypted from end to end using TLS.
+
+The data is encripted with a symetric algorithm, then to exhange this key an asymetric algorithm is used, and a hash algoritm is used to ensure integraty.
+
+**Cipher Suite** = the combinayion of algorithms used to encrypt and transmit the data.
+
+[Click here](https://wiki.mozilla.org/Security/Server_Side_TLS) to see the best cipher suites to use.
