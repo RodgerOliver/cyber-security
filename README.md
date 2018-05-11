@@ -77,19 +77,19 @@ To protect against known vulnerabilities and bugs is to use **formal methods**. 
 
 ## Encryption Crash Course
 
-Encryption is a method of transforming readable data, called **plain text**, into a form that is unreadable that is called **cipher text**. And decryption is a method to transform cypher text into plain text.
+Encryption is a method of transforming readable data, called **plain text**, into a form that is unreadable that is called **cipher text**. And decryption is a method to transform cipher text into plain text.
 
 ### Symmetric Encryption Algorithm
 
-There are to main components of symetric encryption. There is the **algorithm (public, padlock)**, and the **key (secret, key)**.
+There are to main components of symmetric encryption. There is the **algorithm (public, padlock)**, and the **key (secret)**.
 
 This combination determines how the plain text will be jumbled up.
 
 Examples: AES, DES, 3DES, Blowfish, RC4, RC5, RC6.
 
-**AES** = Advanced Encryption Standard (Symetric Algorithm, uses one key).
+**AES** = Advanced Encryption Standard (Symmetric Algorithm, uses one key).
 
-**256-bit** AES = bit lingth & key space (2 ^ bit-rate are the possible keys with this algorithm). The higher the number, the stronger the algorithm and the slower the encryption and decryption.
+**256-bit** AES = bit length & keyspace (2 ^ bit-rate are the possible keys with this algorithm). The higher the number, the stronger the algorithm and the slower the encryption and decryption.
 
 ### Asymmetric Encryption Algorithm
 
@@ -99,30 +99,30 @@ Examples: RSA, ECC, DH, El Gamal.
 
 The **public key** is designed to be known by anybody, and the **private key** is secret. These key are mathematically related and have to be generated at the same time.
 
-If you encrypit with the **public**, you need the **private** to decrypt.
-If you encrypit with the **private**, you need the **public** to decrypt.
+If you encrypt with the **public**, you need the **private** to decrypt.
+If you encrypt with the **private**, you need the **public** to decrypt.
 
 ![Asymmetric Encryption](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Asymmetric-Encryption.png)
 
-The sender encrypts the message with the receiver's public key, so you want privacy or confidentiality, and message is decrypted with the receiver's private key, but there is no authentication, cause any one can use the receiver's public key to send a message to encrypt.
+The sender encrypts the message with the receiver's public key, so you want privacy or confidentiality, and the message is decrypted with the receiver's private key, but there is no authentication, cause anyone can use the receiver's public key to send a message to encrypt.
 
-But if the message is encrypted with the sender's private key, it means that authenticating is what he is interested in, the receiver will know who sent it, but any one can decrypt it with the sender's public key, so it is not private.
+But if the message is encrypted with the sender's private key, it means that authenticating is what he is interested in, the receiver will know who sent it, but anyone can decrypt it with the sender's public key, so it is not private.
 
 ### Conclusion
 
-Asymetric: better key distribution, scalability, authentication and nonrepudiation, slow, mathematically intense.
+Asymmetric: better key distribution, scalability, authentication and non-repudiation, slow, mathematically intense.
 
-Symetric: fast and strong.
+Symmetric: fast and strong.
 
 ### Hashes
 
-A hash function takes as input data of any size and converts it into a fixed length string of characters. This is a one way function, so it cannot be converted back to its original state, and no keys are requires for this.
+A hash function takes as input data of any size and converts it into a fixed length string of characters. This is a one-way function, so it cannot be converted back to its original state, and no keys are required for this.
 
 ![Hash Functions](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Hash-Functions.jpg)
 
 ### Digital Signatures
 
-A Digital Signature is a hashed value that is encrypted with the sender's private key. When this is done, it provides authentication, nonrepudiation and integrity.
+A Digital Signature is a hashed value that is encrypted with the sender's private key. When this is done, it provides authentication, non-repudiation and integrity.
 
 To verify that the data is what it claims to be, the Digital Signature is decrypted with the sender's public key returning a hash, this hash compared to the hash of the data, if they match, that data is original and verified.
 
@@ -138,8 +138,16 @@ SSL and TLS are cryptographic protocols designed to provide communication securi
 
 When you access a website, the browser communicates with the server, and this is encrypted from end to end using TLS.
 
-The data is encripted with a symetric algorithm, then to exhange this key an asymetric algorithm is used, and a hash algoritm is used to ensure integraty.
+The data is encrypted with a symmetric algorithm, then to exchange this key an asymmetric algorithm is used, and a hash algorithm is used to ensure integrity.
 
-**Cipher Suite** = the combinayion of algorithms used to encrypt and transmit the data.
+**Cipher Suite** = the combination of algorithms used to encrypt and transmit the data.
 
 [Click here](https://wiki.mozilla.org/Security/Server_Side_TLS) to see the best cipher suites to use.
+
+### HTTPS
+
+When you request a website with the `http://` the response is sent in plain text, but when it's requested with `https://` the response is over SSL or TLS.
+
+The client generates a symmetric session key by using AES, for example, and encrypts it with the server's public key. This encrypted key is sent to the web server and they both use this symmetric key to encrypt the data they send back and forth. This is how a secure channel is established.
+
+[Click here](https://www.ssllabs.com) to see what encryption options your website is using.
