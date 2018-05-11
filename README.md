@@ -148,10 +148,14 @@ The data is encrypted with a symmetric algorithm, then to exchange this key an a
 
 When you request a website with the `http://` the response is sent in plain text, but when it's requested with `https://` the response is over SSL or TLS.
 
+![HTTPS](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/HTTPS.jpg)
+
 The client generates a symmetric session key by using AES, for example, and encrypts it with the server's public key. This encrypted key is sent to the web server and they both use this symmetric key to encrypt the data they send back and forth. This is how a secure channel is established.
 
 [Click here](https://www.ssllabs.com) to see what encryption options your website is using.
 
 ### Digital Certificates
 
-**Digital Certificates** = a digital document containing information about the owner of the certficate, or the website. This is used to ensure that the public key of that website is the real key.
+**Digital Certificates** = a digital document containing information about the website signed by a authority. The authority is saying that all the information on that certificate is legitimate.
+
+![Digital Certificates](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Digital-Certificates.jpg)
