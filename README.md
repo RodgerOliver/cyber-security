@@ -159,3 +159,9 @@ The client generates a symmetric session key by using AES, for example, and encr
 **Digital Certificates** = a digital document containing information about the website signed by a authority. The authority is saying that all the information on that certificate is legitimate.
 
 ![Digital Certificates](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Digital-Certificates.jpg)
+
+### Steganography
+
+**Steganography** = the practice of concealing information or files within other non-secret text or data. It's called "hiding data in plain sight". For example: a image (carrier) can look like normal, but there is a secret message inside it.
+
+[OpenPuff](https://embeddedsw.net/OpenPuff_Steganography_Home.html) is a Stegranography tool that you can use on Windows.
