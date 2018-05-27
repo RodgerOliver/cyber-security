@@ -173,3 +173,28 @@ In order to learn and remember the content of the course it’s good to practica
 ![Hypervisor](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Hypervisor.jpg)
 
 To use VirtualBox, a type of hypervisor, you have to enable virtualization in the BIOS. After that, install a machine via an ISO file or a CD. Ounce the machine is readdy you can install Virtualbox Guest Additions to have a better experience.
+
+
+## Sections 6 to 9 (tips)
+
+Disable everything that can compromise you, such as privacy and tracking settings. Be aware of the security bugs of your OS.
+
+Always patch your OS. This is so much important for privacy and security concerns. Always update.
+
+Never use an admin or root account on daily usage. If you use and your computer is compromised, the attacker would be able to do a lot more damage.
+
+Be aware of social engineering attacks. They can be everywhere. Pay attention to everything before you click on something or execute a program.
+
+## Secutiry Domains
+
+### Physical Security Domain
+
+**Physical Security Domain (ie)** = a computer that has full disk encryption, protect with a good password, and a OS with a high level of security, and other computer for general use.
+
+Physical isolation provides the highest level of security and privacy, and protects against attackers that have physical access to your computer.
+
+### Virtual Security Domain
+
+**Virtual Security Domain or Isolation (ie)** = a computer with a hypervisor, and the Host OS is Windows, for general use, and Debian in Virtualbox is used for high security.
+
+Technology used to creat virtual isolation can be attacked, so you have to be aware of it. To create a separate domains you can do things like dualbooting, use hypervisors with VirtualBox or VMware, have hidden operating systems with VeraCrypt and TrueCrypt provide that, encrypted or hidden drive partitions, sandboxes, portable apps, bootable USBs, non-persistent OSs like Tails, OSs dedicated to isolation like Qubes.
