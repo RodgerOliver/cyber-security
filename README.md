@@ -165,3 +165,11 @@ The client generates a symmetric session key by using AES, for example, and encr
 **Steganography** = the practice of concealing information or files within other non-secret text or data. It's called "hiding data in plain sight". For example: a image (carrier) can look like normal, but there is a secret message inside it.
 
 [OpenPuff](https://embeddedsw.net/OpenPuff_Steganography_Home.html) is a Stegranography tool that you can use on Windows.
+
+## Setting up a Testing Environment Using Virtual Machines (Lab)
+
+In order to learn and remember the content of the course it’s good to practically try things out. And one way to do this is to use a virtual environment or hypervisors, which emulates a physical computer.
+
+![Hypervisor](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Hypervisor.jpg)
+
+To use VirtualBox, a type of hypervisor, you have to enable virtualization in the BIOS. After that, install a machine via an ISO file or a CD. Ounce the machine is readdy you can install Virtualbox Guest Additions to have a better experience.
