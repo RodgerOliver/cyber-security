@@ -202,3 +202,11 @@ Technology used to creat virtual isolation can be attacked, so you have to be aw
 ## Security Through Isolation and Compartmentalization
 
 **Tip 1** : CHANGE YOUR MAC ADDRESS. Check if other hardware hava a serial number or something like that.
+
+**Tip 2** : SEPARATE YOUR ASSETS BY THEIR LEVEL OF IMPORTANCE. Do this and encrypt each volume with a different key.
+
+**Tip 3** : USE PORTABLE APPS TO CONTROL THE FILES. This way every change made in the app, or history will be in one folder.
+
+**Tip 4** : USE SANDBOXES TO BE ISOLATED. It is an isolated environment for running applications or code. It’s a virtual container that keeps the contents confined to it. All sandboxes are based on the core principle of not allowing the contents of the sandbox to spill out of the container.
+
+![Sandbox](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Sandboxes.gif)
