@@ -198,3 +198,7 @@ Physical isolation provides the highest level of security and privacy, and prote
 **Virtual Security Domain or Isolation (ie)** = a computer with a hypervisor, and the Host OS is Windows, for general use, and Debian in Virtualbox is used for high security.
 
 Technology used to creat virtual isolation can be attacked, so you have to be aware of it. To create a separate domains you can do things like dualbooting, use hypervisors with VirtualBox or VMware, have hidden operating systems with VeraCrypt and TrueCrypt provide that, encrypted or hidden drive partitions, sandboxes, portable apps, bootable USBs, non-persistent OSs like Tails, OSs dedicated to isolation like Qubes.
+
+## Security Through Isolation and Compartmentalization
+
+**Tip 1** : CHANGE YOUR MAC ADDRESS. Check if other hardware hava a serial number or something like that.
