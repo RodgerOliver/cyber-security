@@ -210,3 +210,7 @@ Technology used to creat virtual isolation can be attacked, so you have to be aw
 **Tip 4** : USE SANDBOXES TO BE ISOLATED. It is an isolated environment for running applications or code. It’s a virtual container that keeps the contents confined to it. All sandboxes are based on the core principle of not allowing the contents of the sandbox to spill out of the container.
 
 ![Sandbox](https://raw.githubusercontent.com/RodgerOliver/cyber-security/master/Sandboxes.gif)
+
+**Tip 4** : VIRTUAL MACHINES ARE GOOD FOR ISOLATION AND COMPARTMENTALIZATION. When configured correctly they are a good way to stay safe in other environment.
+
+You can use specific OSs to have a better result. Some of them are **Whonix**, **Knoppix**, **Qubes** and **Tails**.
